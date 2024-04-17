@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="kgoedi">
+    <header class="header">
+        <div class="container">
+        
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-form">
+        <div class="container">
+            <h2 class="yebo">Contact Us</h2>
+            <div class="container">
+                <div class="company-details">
+                    <h1>KGOEDI IT SOLUTIONS</h1>
+                    <p>105 Morotologa street EXT 16 office Park</p>
+                    <p>Athurseat</p>
+                    <p>1360</p>
+                    <p>Phone:+2772 723 5063</p>
+                    <p>Email:kgoedi@Itsolutions.com</p>
+                </div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="button" onclick="submitForm()">Submit</button>
+                <div id="response"></div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
